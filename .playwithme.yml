@@ -1,4 +1,4 @@
-steps:
+install:
     - sudo apt-get install -y --force-yes apache2
     - sudo a2enmod rewrite
     - sudo cp .playwithme/virtual-host.conf /etc/apache2/sites-available/default
